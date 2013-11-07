@@ -12,7 +12,7 @@
 #
 class wlcg_vobox {
 
-$package_list = [ 'wlcg-vobox']
+$package_list = [ 'wlcg-vobox', 'HEP_OSlibs_SL6']
   package { $package_list:
     ensure => installed
   }
